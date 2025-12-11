@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout box 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        html,* {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        #main {
+            width: 500px;
+            height: 750px;
+            background-color: #96cfeb;
+            margin: auto;
+        }
+        .first {
+            width: 480px;
+            height: 60px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .second {
+            width: 480px;
+            height: 30px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .third {
+            width: 480px;
+            height: 100px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        #name {
+            width: 480px;
+            height: 480px;
+            background-color: #96cfeb;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+        }
+        .sideleft {
+            width: 150px;             
+            height: 460px;  
+            background-color: #7fa0b0;
+            float: left;
+            margin: 10px 10px 10px 10px;
+        }
+        .sideright {
+            width: 290px;             
+            height: 460px;  
+            background-color: #7fa0b0;
+            float: right;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div id="name">
+            <div class="sideleft"></div>
+            <div class="sideright"></div>
+        </div>
+        <div class="second"></div>
+    </div>
+    
+</body>
+</html>

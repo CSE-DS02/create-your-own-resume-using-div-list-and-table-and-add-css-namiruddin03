@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout box 3</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        html,* {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        #main {
+            width: 500px;
+            height: 750px;
+            background-color: #f200ff;
+            margin: auto;
+        }
+        .first {
+            width: 480px;
+            height: 70px;
+            background-color: #ff9100;
+            margin: 10px 10px 10px 10px;
+        }
+        .second {
+            width: 340px;
+            height: 100px;
+            background-color: #4e155a;
+            margin: 10px 10px 10px 10px;
+            float: right;
+        }
+        .sideright1 {
+            width: 320px;             
+            height: 80px;  
+            background-color: #2011a3;
+            float: right;
+            margin: 10px 10px 10px 10px;
+        }
+        .third {
+            width: 480px;
+            height: 540px;
+            background-color: #ff0080;
+            margin: 10px 10px 10px 10px;
+        }
+        .sideright2 {
+            width: 320px;             
+            height: 400px;  
+            background-color: #29a62d;
+            float: right;
+            margin: 10px 10px 10px 10px;
+        }
+        #fourth {
+            width: 480px;
+            height: 105px;
+            background-color: #fa0000;
+            margin: 10px 10px 10px 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="first"></div>
+        <div class="second">
+            <div class="sideright1"></div>
+        </div>
+        <div class="third">
+            <div class="sideright2"></div>
+        </div>
+        <div id="fourth"></div>
+    </div>
+    
+</body>
+</html>

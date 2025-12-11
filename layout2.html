@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout box 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        html,* {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        #main {
+            width: 500px;
+            height:750px;
+            background-color: #96cfeb;
+            margin: auto;
+        }
+        .first {
+            width: 480px;
+            height: 50px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .second {   
+            width: 480px;
+            height: 90px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .third {
+            width: 480px;
+            height: 60px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }                     
+        #box {
+            width: 480px;
+            height: 430px;
+            background-color: #96cfeb;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+        } 
+        .sideleft {
+            width: 150px;             
+            height: 410px;  
+            background-color: #7fa0b0;
+            float: left;
+            margin: 10px 10px 10px 10px;
+        }
+        .sideright {
+            width: 150px;             
+            height: 410px;  
+            background-color: #7fa0b0;
+            float: right;
+            margin: 10px 10px 10px 10px;
+        }
+        .auto {
+            width: 150px;             
+            height: 410px;  
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+            float: center;
+        }
+        .fourth {
+            width: 480px;
+            height: 65px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+           
+    </style>
+</head>
+<body>
+      <div id="main">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div id="box">
+            <div class="sideleft"></div>
+            <div class="auto"></div> 
+            <div class="sideright"></div>
+        </div>
+        <div class="fourth"></div>
+      </div>
+</body>
+</html>
