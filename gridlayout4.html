@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout box 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        html,* {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        #main {
+            width: 700px;
+            height: 813px;
+            background-color: #96cfeb;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .first {
+            width: 680px;
+            height: 115px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .second {
+            width: 680px;
+            height: 115px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        .third {
+            width: 680px;
+            height: 115px;
+            background-color: #7fa0b0;
+            margin: 10px 10px 10px 10px;
+        }
+        #name {
+            width: 680px;
+            height: 300px;
+            background-color: #96cfeb;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+        }
+        .sideleft {
+            width: 230px;             
+            height: 285px;  
+            background-color: #7fa0b0;
+            float: left;
+            margin: 10px 10px 10px 10px;
+        }
+        .sideright {
+            width: 230px;             
+            height: 285px;  
+            background-color: #7fa0b0;
+            float: right;
+            margin: 10px 10px 10px 10px;
+            display: flex;
+        }
+        .middle {
+            width: 230px;             
+            height: 285px;  
+            background-color: #7fa0b0; 
+            float: center;
+            margin: 10px 10px 10px 10px;
+        }             
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="third"></div>
+        <div id="name">
+            <div class="sideleft"></div>
+            <div class="middle"></div>
+            <div class="sideright"></div>
+        </div>
+        <div class="second"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    main{
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 120px 300px 400px 500px 500px 100px;
+        position: relative;
+        top: 60px;
+        z-index: 0;
+    }
+    #herader, #banner, #about, #service, #gallery, #footer{
+        background-color: blue;
+        display: grid;
+        place-items: center;
+    }
+    nev{
+        width: 100%;
+        height: 50px;
+        background-color: aqua;
+    }
+    nev ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        line-height: 50px;
+    }
+
+
+</style>
+<body>
+    <nev>
+        <ul>
+            <li><a href="https://www.instagram.com/">H ome</a></li>
+            <li><a href="">About US</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact US</a></li>
+        </ul>
+    </nev>
+    <main>
+        <div id="header"><h2>Header</h2></div>
+        <div id="banner"><h2>Image Banner</h2></div>
+        <div id="about"><h2>about</h2></div>
+        <div id="service"><h2>service</h2></div>
+        <div id="gallery"><h2>Gallery</h2></div>
+        <div></div>
+    </main>
+</body>
+</html>

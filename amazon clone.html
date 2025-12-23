@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone (Demo)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #eaeded; }
+        header {
+            background: #131921;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff9900;
+        }
+        .search-box input {
+            width: 400px;
+            padding: 8px;
+            border: none;
+        }
+        .search-box button {
+            padding: 8px 12px;
+            border: none;
+            background: #febd69;
+            cursor: pointer;
+        }
+        nav {
+            background: #232f3e;
+            color: white;
+            padding: 10px 20px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+        footer {
+            background: #131921;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">amazon</div>
+    <div class="search-box">
+        <input type="text" placeholder="Search Amazon">
+        <button>Search</button>
+    </div>
+    <div>Sign In</div>
+</header>
+
+<nav>
+    <a href="#">All</a>
+    <a href="#">Mobiles</a>
+    <a href="#">Fashion</a>
+    <a href="#">Electronics</a>
+    <a href="#">Home</a>
+</nav>
+
+<section class="products">
+    <div class="product">
+        <img src="hq720.jpg">
+        <h3>Dhaniya Chatni with Silver Plate</h3>
+        <p>₹99 + ₹299</p>
+    </div>
+    <div class="product">
+        <img src="__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__10__20170921-chaat-vicky-wasik-12-4a90017cf725423197bd1b318cec4484.jpg">
+        <h3>Chaat masala</h3>
+        <p>₹19/gm</p>
+    </div>
+    <div class="product">
+        <img src="potato-aalu.jpg">
+        <h3>Potato (Aalu)</h3>
+        <p>₹15kg.</p>
+    </div>
+</section>
+<section class="products">
+    <div class="product">
+        <img src="HALDI.jpg">
+        <h3>HALDI</h3>
+        <p>₹183</p>
+    </div>
+    <div class="product">
+        <img src="zanDU.webp">
+        <h3>ZHANDU BAM</h3>
+        <p>₹35</p>
+    </div>
+    <div class="product">
+        <img src="GOODKNIGHT.webp">
+        <h3>GOOD KNIGHT with REFIL</h3>
+        <p>₹150</p>
+    </div>
+</section>
+<section class="products">
+    <div class="product">
+        <img src="ONION.webp">
+        <h3>ONION</h3>
+        <p>₹99KG</p>
+    </div>
+    <div class="product">
+        <img src="garlic.webp">
+        <h3>GARLIC</h3>
+        <p>₹190KG</p>
+    </div>
+    <div class="product">
+        <img src="51+NnTLP0-L._AC_UF894,1000_QL80_.jpg">
+        <h3>ICE CREAM</h3>
+        <p>₹105</p>
+    </div>
+</section>
+<section class="products">
+    <div class="product">
+        <img src="coffee.webp">
+        <h3>COFFEE</h3>
+        <p>₹159</p>
+    </div>
+    <div class="product">
+        <img src="rosgullah.jpg">
+        <h3>ROSGULLAH</h3>
+        <p>₹20/pic.</p>
+    </div>
+    <div class="product">
+        <img src="cake.jpg">
+        <h3>CAKE</h3>
+        <p>₹499</p>
+    </div>
+</section>
+
+
+<footer>
+    © 2025 Amazon Clone
+</footer>
+
+</body>
+</html>
